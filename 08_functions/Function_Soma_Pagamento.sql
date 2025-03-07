@@ -1,3 +1,4 @@
+/*function para fazer a soma dos pagamentos, recebe o id do pedido*/
 DELIMITER $
 	CREATE FUNCTION pagamento_total(id_pedido int)
     returns decimal(10,2) deterministic
