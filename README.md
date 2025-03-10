@@ -15,7 +15,7 @@
 
 ![modelo-físico](https://github.com/Emmanuelf21/restaurante-db/blob/main/03_modelo_fisico/importar_db.PNG)
 
-## Views e Procedures
+## Views e Procedures 🔎
 - As Views são nomeadas da seguinte forma:
   -  view_pedidos: para visualizar todos os pedidos com o nome e preço de cada prato além do preço total;
   -  Views dos pratos: servem para visualizar os pratos de cada tabela (entrada, prato_principal, guarnição,etc) junto de seus ingredientes:
@@ -35,7 +35,7 @@
    -  inserir_cliente: recebe nome, telefone e cpf;
    -  inserir_pagamento: <b>*pagamento é inserido automaticamente ao gerar um pedido*</b>
 
-## Function
+## Function 🔍
 - O database possui uma function para a soma do valor total a ser pago pelo cliente:
   - pagamento_total: <b>*Esta function é chamada sempre que um pedido novo for inserido na tabela de pedidos*</b>
   
